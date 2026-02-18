@@ -7,6 +7,8 @@ icl_dl_cw2_utils/
 __pycache__/
 *.py[cod]
 *$py.class
+# Data
+/data
 
 # C extensions
 *.so
@@ -98,6 +100,7 @@ celerybeat-schedule
 env/
 venv/
 ENV/
+dl/
 env.bak/
 venv.bak/
 
