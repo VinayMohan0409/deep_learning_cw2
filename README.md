@@ -53,3 +53,11 @@ It might happen that when opening the notebook, your python kernel is not visibl
 ``python -m ipykernel install --user --display-name "Python (dl_cw2)"``
 
 Now when opening your notebook, you should see a kernel available named `Python (dl_cw2)`.
+
+## Latent Diffusion — Generated Hot-Dog Samples
+
+Examples generated using a DDPM trained in the latent space of a pretrained VAE.
+
+![Generated hot-dog samples](assets/generated_hotdogs.png)
+
+See the [Jupyter notebook](dl_cw2.ipynb) for implementation details.
